@@ -13,14 +13,14 @@ module.exports = {
         backgroundImage: false,
         pageGroup: 5,
         // postTime: {
-        //   createTime: 'Create Time',
-        //   lastUpdated: 'Last Updated',
-        //   options: {
-        //     dateStyle: 'full',
-        //     timeStyle: 'short',
-        //     hour12: false,
-        //     weekday: 'long'
-        //   }
+        //     createTime: 'Create Time',
+        //     lastUpdated: 'Last Updated',
+        //     options: {
+        //         dateStyle: 'full',
+        //         timeStyle: 'short',
+        //         hour12: false,
+        //         weekday: 'long'
+        //     }
         // },
         nav: [
             { text: 'Home', link: '/' },
@@ -35,9 +35,9 @@ module.exports = {
         ]
     },
     // postcss: {
-    //   plugins: [
-    //     require('css-prefers-color-scheme/postcss'),
-    //     require('autoprefixer')
-    //   ]
+    //     plugins: [
+    //         require('css-prefers-color-scheme/postcss'),
+    //         require('autoprefixer')
+    //     ]
     // }
 }

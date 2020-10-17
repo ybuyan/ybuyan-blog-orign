@@ -24,7 +24,7 @@
         "dev": "vuepress dev examples",
         "serve": "vuepress dev examples",
         "build": "vuepress build examples",
-        "dev:docs": "vuepress dev docs --temp .temp",
+        "dev:docs": "vuepress dev docs",
         "build:docs": "vuepress build docs"
     },
     "dependencies": {
