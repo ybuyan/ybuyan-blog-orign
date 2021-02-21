@@ -23,15 +23,15 @@ module.exports = {
         //     }
         // },
         nav: [
-            { text: 'Home', link: '/' },
-            { text: 'Posts', link: '/posts/' },
-            { text: 'Doc', link: '/doc/' },
-            { text: 'Tags', link: '/tag/' },
-            { text: 'Categories', link: '/category/' },
-            { text: 'About', link: '/about/' }
+            { text: '主页', link: '/' },
+            { text: '帖子', link: '/posts/' },
+            { text: '文章', link: '/doc/' },
+            { text: '标签', link: '/tag/' },
+            { text: '分类', link: '/category/' },
+            { text: '关于我', link: '/about/' }
         ],
         footer: [
-            { text: 'Github', link: 'https://github.com/tolking' }
+            { text: 'Github', link: 'https://github.com/ybuyan' }
         ]
     },
     // postcss: {

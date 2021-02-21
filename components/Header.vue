@@ -8,7 +8,7 @@
             :to="$localePath"
             class="inblock link-logo"
           >
-            <img-lazy :src="$themeConfig.logo" class="logo-img" alt="logo" />
+          <img-lazy :src="$themeConfig.logo" class="logo-img" alt="logo" />
           </router-link>
           <nav class="link-list">
             <nav-link
@@ -60,7 +60,7 @@ export default {
           height $headerHeight
           .logo-img
             padding 16.5% 0
-            height 50%
+            height 64%
         .link-list
           display inline-block
           .list-item
