@@ -3,8 +3,8 @@ title: js中的this
 display: home
 lang: en-US
 description: learnning the js -  this
-image: https://picsum.photos/536/354?random&date=2019-09-21
-date: 2019-09-22
+image: https://picsum.photos/536/354?random&date=2019-09-28
+date: 2019-09-28
 vssue-title: vuepress-plugin-img-lazy
 tags:
   - js

@@ -3,8 +3,8 @@ title: ES6语法--let和const
 display: home
 lang: en-US
 description: learning the js - ES6语法--let和const
-image: https://picsum.photos/536/354?random&date=2019-09-21
-date: 2019-09-21
+image: https://picsum.photos/536/354?random&date=2019-09-23
+date: 2019-09-23
 vssue-title: vuepress-plugin-img-lazy
 tags:
   - js

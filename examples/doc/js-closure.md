@@ -3,8 +3,8 @@ title: javascript-闭包
 display: home
 lang: en-US
 description: learning the js - 闭包
-image: https://picsum.photos/536/354?random&date=2019-09-21
-date: 2019-09-21
+image: https://picsum.photos/536/354?random&date=2019-09-25
+date: 2019-09-25
 vssue-title: vuepress-plugin-img-lazy
 tags:
   - js

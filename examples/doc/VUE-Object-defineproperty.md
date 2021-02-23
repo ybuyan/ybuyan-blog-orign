@@ -3,8 +3,8 @@ title: Object.defineproperty在vue中的作用
 display: home
 lang: en-US
 description: learnning the js -  Object.defineproperty在vue中的作用
-image: https://picsum.photos/536/354?random&date=2019-09-21
-date: 2019-09-22
+image: https://picsum.photos/536/354?random&date=2019-10-03
+date: 2019-10-03
 vssue-title: vuepress-plugin-img-lazy
 tags:
   - js

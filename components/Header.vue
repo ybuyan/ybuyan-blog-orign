@@ -59,8 +59,7 @@ export default {
         .link-logo
           height $headerHeight
           .logo-img
-            padding 16.5% 0
-            height 64%
+            height 102%
         .link-list
           display inline-block
           .list-item

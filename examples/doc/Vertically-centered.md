@@ -3,8 +3,8 @@ title: CSS垂直居中
 display: home
 lang: en-US
 description: learning the CSS - CSS垂直居中
-image: https://picsum.photos/536/354?random&date=2019-09-21
-date: 2019-09-21
+image: https://picsum.photos/536/354?random&date=2019-10-02
+date: 2019-10-02
 vssue-title: vuepress-plugin-img-lazy
 tags:
   - css

@@ -3,8 +3,8 @@ title: Angular Renderer2 -- listen
 display: home
 lang: en-US
 description: learning the Angular renderer2 - listen
-image: https://picsum.photos/536/354?random&date=2019-09-21
-date: 2020-12-13
+image: https://picsum.photos/536/354?random&date=2019-10-01
+date: 2020-10-01
 vssue-title: vuepress-plugin-img-lazy
 tags:
   - Angular
