@@ -1,7 +1,7 @@
 ---
 title: js中的this
 display: home
-lang: en-US
+lang: zh
 description: learnning the js -  this
 image: https://picsum.photos/536/354?random&date=2019-09-28
 date: 2019-09-28

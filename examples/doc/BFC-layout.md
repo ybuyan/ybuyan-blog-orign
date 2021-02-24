@@ -1,7 +1,7 @@
 ---
 title: BFC布局
 display: home
-lang: en-US
+lang: zh
 description: learning the CSS - BFC布局
 image: https://picsum.photos/536/354?random&date=2019-09-21
 date: 2019-09-21

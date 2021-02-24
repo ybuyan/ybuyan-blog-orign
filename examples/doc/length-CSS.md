@@ -1,7 +1,7 @@
 ---
 title: css中有这么么么多长度单位？
 display: home
-lang: en-US
+lang: zh
 description: learning the CSS - css中有这么么么多长度单位？
 image: https://picsum.photos/536/354?random&date=2019-09-29
 date: 2019-09-29

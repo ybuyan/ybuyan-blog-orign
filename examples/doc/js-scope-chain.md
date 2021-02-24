@@ -1,7 +1,7 @@
 ---
 title: js作用域链
 display: home
-lang: en-US
+lang: zh
 description: learning the js - 作用域链
 image: https://picsum.photos/536/354?random&date=2019-09-27
 date: 2019-09-27

@@ -1,7 +1,7 @@
 ---
 title: 圣杯布局
 display: home
-lang: en-US
+lang: zh
 description: learning the CSS - 圣杯布局
 image: https://picsum.photos/536/354?random&date=2019-09-24
 date: 2019-09-24

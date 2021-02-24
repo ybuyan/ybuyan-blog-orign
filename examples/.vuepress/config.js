@@ -6,7 +6,7 @@ module.exports = {
     theme: require.resolve('../../'),
     themeConfig: {
         // defaultTheme: { dark: [19, 6] },
-        useVssue: true,
+        useVssue: false,
         showThemeButton: false,
         cover: '/cover.jpg',
         logo: '/logo.png',
@@ -14,8 +14,8 @@ module.exports = {
         backgroundImage: true,
         pageGroup: 5,
         // postTime: {
-        //     createTime: 'Create Time',
-        //     lastUpdated: 'Last Updated',
+        //     createTime: '创建时间',
+        //     lastUpdated: '最近更新',
         //     options: {
         //         dateStyle: 'full',
         //         timeStyle: 'short',

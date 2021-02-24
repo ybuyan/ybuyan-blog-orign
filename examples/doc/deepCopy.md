@@ -1,7 +1,7 @@
 ---
 title: 深拷贝
 display: home
-lang: en-US
+lang: zh
 description: learning the js
 image: https://picsum.photos/536/354?random&date=2019-09-22
 date: 2019-09-22

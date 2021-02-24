@@ -1,7 +1,7 @@
 ---
 title: CSS垂直居中
 display: home
-lang: en-US
+lang: zh
 description: learning the CSS - CSS垂直居中
 image: https://picsum.photos/536/354?random&date=2019-10-02
 date: 2019-10-02

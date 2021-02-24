@@ -1,7 +1,7 @@
 ---
 title: Object.defineproperty在vue中的作用
 display: home
-lang: en-US
+lang: zh
 description: learnning the js -  Object.defineproperty在vue中的作用
 image: https://picsum.photos/536/354?random&date=2019-10-03
 date: 2019-10-03

@@ -1,7 +1,7 @@
 ---
 title: Angular Renderer2 -- listen
 display: home
-lang: en-US
+lang: zh
 description: learning the Angular renderer2 - listen
 image: https://picsum.photos/536/354?random&date=2019-10-01
 date: 2020-10-01

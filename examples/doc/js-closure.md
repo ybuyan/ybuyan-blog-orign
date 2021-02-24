@@ -1,7 +1,7 @@
 ---
 title: javascript-闭包
 display: home
-lang: en-US
+lang: zh
 description: learning the js - 闭包
 image: https://picsum.photos/536/354?random&date=2019-09-25
 date: 2019-09-25
