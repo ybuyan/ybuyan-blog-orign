@@ -42,7 +42,7 @@ http://www.ononesoftware.com/products/effects9free/
 
 专为摄影师而设计!Perfect Effects 3 是一款直观又强大的工具，可以很容易地为照片加入效果，一些在Photoshop、Lightroom、Photoshop Elements 或Aperture 需要费时才能做出来的效果，在Perfect Effects 3 可以轻松办到。
 
-[![http://www.ononesoftware.com/products/effects9free/](./../../asstes/img/PerfectEffects3.jpg.jpg)](http://www.ononesoftware.com/products/effects9free/)
+[![http://www.ononesoftware.com/products/effects9free/](./../../asstes/img/PerfectEffects3.jpg)](http://www.ononesoftware.com/products/effects9free/)
 
 ### 5. Typewolf
 https://www.typewolf.com/
