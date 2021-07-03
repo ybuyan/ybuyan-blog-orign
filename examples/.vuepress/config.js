@@ -47,6 +47,13 @@ module.exports = {
             {
                 componentsDir: './components'
             }
-        ]
+        ],
+        [
+            'copyright',
+            {
+                noCopy: true, // 选中的文字将无法被复制
+                minLength: 1, // 如果长度超过 1 个字符
+            },
+        ],
     ]
 }
