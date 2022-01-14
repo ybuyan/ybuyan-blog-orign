@@ -1,21 +1,3 @@
-# vuepress-theme-ououe
-
-> A blog theme for VuePress
-
-Live Demo: [My Blog](https://ououe.com)
-
-[Documentation](https://tolking.github.io/vuepress-theme-ououe)
-
-Uses [vuepress-theme-ououe-template](https://github.com/tolking/vuepress-theme-ououe-template) to starter
-
-Take [TryGhost/Casper](https://github.com/TryGhost/Casper) as a reference
-
----
-
-![preview](https://ououe.com/img/vuepress-theme-ououe.jpg)
-
----
-
 ## Installation
 
 ``` sh
