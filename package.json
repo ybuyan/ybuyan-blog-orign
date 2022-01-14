@@ -13,13 +13,11 @@
         "dark-theme"
     ],
     "scripts": {
-        "dev": "vuepress dev examples",
-        "serve": "vuepress dev examples",
-        "build": "vuepress build examples",
+        "dev": "vuepress dev docs",
+        "serve": "vuepress dev docs",
+        "build": "vuepress build docs",
         "dev:docs": "vuepress dev docs",
-        "build:docs": "vuepress build docs",
-        "dev:examples": "vuepress dev examples",
-        "build:examples": "vuepress build examples"
+        "build:docs": "vuepress build docs"
     },
     "dependencies": {
         "@vssue/api-github-v3": "^1.4.7",

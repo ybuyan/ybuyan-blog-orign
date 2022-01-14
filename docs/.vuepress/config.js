@@ -1,98 +1,61 @@
 module.exports = {
-    base: '/vuepress-theme-ououe/',
-    title: 'vuepress-theme-ououe',
-    description: 'A blog theme for VuePress',
+    title: '不言',
+    description: 'Just stop thinking ,worring, looking over your shoulder.Just do it',
+    base: '/',
     dest: 'dist/',
-    evergreen: true,
-    theme: 'default-prefers-color-scheme',
-    head: [
-        ['link', { rel: 'icon', href: '/favicon.ico' }],
-        ['meta', { 'http-equiv': 'X-UA-Compatible', content: 'IE=edge,chrome=1' }],
-        ['meta', { name: 'renderer', content: 'webkit' }],
-        ['meta', { name: 'force-rendering', content: 'webkit' }],
-        ['meta', { name: 'applicable-device', content: 'pc,mobile' }],
-        ['meta', { name: 'author', content: 'tolking <w13131wang@gmail.com>' }]
-    ],
-    locales: {
-        '/': {
-            lang: 'en-US',
-            title: 'vuepress-theme-ououe',
-            description: 'A blog theme for VuePress'
-        },
-        '/zh/': {
-            lang: 'zh-CN',
-            title: 'vuepress-theme-ououe',
-            description: '为 vuepress 制作的一款主题'
-        }
-    },
+    theme: require.resolve('../../'),
     themeConfig: {
-        repo: 'tolking/vuepress-theme-ououe',
-        docsDir: 'docs',
-        editLinks: true,
-        locales: {
-            '/': {
-                selectText: 'Languages',
-                label: 'English',
-                editLinkText: 'Edit this page on GitHub',
-                lastUpdated: 'Last Updated',
-                serviceWorker: {
-                    updatePopup: {
-                        message: "New content is available.",
-                        buttonText: "Refresh"
-                    }
-                },
-                nav: [
-                    { text: 'Home', link: '/' },
-                    { text: 'Guide', link: '/guide/' },
-                    { text: 'Plugin', link: '/plugin/' }
-                ],
-                sidebar: {
-                    '/guide/': [
-                        '',
-                        'use',
-                        'options'
-                    ],
-                    '/plugin/': [
-                        '', ['blog-multidir', 'blog-multidir'],
-                        ['img-lazy', 'img-lazy'],
-                        ['reading-progress', 'reading-progress']
-                    ]
-                }
-            },
-            '/zh/': {
-                selectText: '选择语言',
-                label: '简体中文',
-                editLinkText: '在 GitHub 上编辑此页',
-                lastUpdated: '最后更新时间',
-                serviceWorker: {
-                    updatePopup: {
-                        message: "发现新内容可用.",
-                        buttonText: "刷新"
-                    }
-                },
-                nav: [
-                    { text: '主页', link: '/zh/' },
-                    { text: '指南', link: '/zh/guide/' },
-                    { text: '插件', link: '/zh/plugin/' }
-                ],
-                sidebar: {
-                    '/zh/guide/': [
-                        ['', '介绍'],
-                        ['use', '使用'],
-                        ['options', '配置']
-                    ],
-                    '/zh/plugin/': [
-                        ['', '插件'],
-                        ['blog-multidir', 'blog-multidir'],
-                        ['img-lazy', 'img-lazy'],
-                        ['reading-progress', 'reading-progress']
-                    ]
-                }
-            }
-        }
+        // defaultTheme: { dark: [19, 6] },
+        useVssue: false,
+        showThemeButton: false,
+        cover: '/cover.jpg',
+        logo: '/logo.png',
+        search: true,
+        backgroundImage: true,
+        pageGroup: 5,
+        // postTime: {
+        //     createTime: '创建时间',
+        //     lastUpdated: '最近更新',
+        //     options: {
+        //         dateStyle: 'full',
+        //         timeStyle: 'short',
+        //         hour12: false,
+        //         weekday: 'long'
+        //     }
+        // },
+        nav: [
+            { text: '主页', link: '/' },
+            { text: '帖子', link: '/posts/' },
+            { text: '文章', link: '/doc/' },
+            { text: '标签', link: '/tag/' },
+            { text: '分类', link: '/category/' },
+            { text: '关于我', link: '/about/' }
+        ],
+        footer: [
+            { text: 'Github', link: 'https://github.com/ybuyan' }
+        ]
     },
+    // postcss: {
+    //     plugins: [
+    //         require('css-prefers-color-scheme/postcss'),
+    //         require('autoprefixer')
+    //     ]
+    // }
     plugins: [
-        'img-lazy',
-        'reading-progress'
+        [
+            '@vuepress/register-components',
+            {
+                componentsDir: './components'
+            }
+        ],
+        [
+            'copyright',
+            {
+                // noCopy: true, // 选中的文字将无法被复制
+                // minLength: 100,
+                noSelect: true,
+                disabled: true
+            },
+        ],
     ]
 }
