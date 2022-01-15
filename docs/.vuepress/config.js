@@ -1,6 +1,9 @@
 module.exports = {
     title: '不言',
     description: 'Just stop thinking ,worring, looking over your shoulder.Just do it',
+    head: [
+        ['meta', { name: 'keywords', content: '前端' }]
+    ],
     base: '/',
     dest: 'dist/',
     theme: require.resolve('../../'),
