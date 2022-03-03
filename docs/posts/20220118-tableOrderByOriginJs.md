@@ -7,7 +7,7 @@ image: https://picsum.photos/536/354?random&date=2022-01-18
 date: 2022-01-18
 vssue-title: vuepress-plugin-img-lazy
 tags:
-  - js基础
+  - js
 categories:
   - 面试题
 ---
