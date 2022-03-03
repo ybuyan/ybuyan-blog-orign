@@ -2,7 +2,8 @@ module.exports = {
     title: '不言',
     description: 'Just stop thinking ,worring, looking over your shoulder.Just do it',
     head: [
-        ['meta', { name: 'keywords', content: '前端' }]
+        ['meta', { name: 'keywords', content: '前端' }],
+        ['link', { rel: 'icon', href: `favicon.ico` }]
     ],
     base: '/',
     dest: 'dist/',
