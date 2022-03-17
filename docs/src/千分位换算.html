@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>千分位换算</title>
+</head>
+
+<script>
+    // let str = 'a_bcd_d'
+    // str = str.replace(/(_)([a-z])/g, (m, $1, $2) => {
+    //     console.log(m)
+    //     console.log($2);
+    //     return $2.toUpperCase()
+    // })
+    // console.log(str)
+
+    // 给出一个数字，如 12345.6789 ，返回格式化后的内容，如 12,345.678,9
+    function format(num) {
+        if (!(num+'').includes('.')) {
+            return num.toLocaleString()
+        }
+        const [left, right] = (num+'').split('.')
+        const l = Number(left).toLocaleString()
+        const r = Number(right.split('').reverse().join('')).toLocaleString().split('').reverse().join('')
+        const covertStr = l + '.' + r;
+        return covertStr
+
+    }
+    console.log(format(12345.6789));
+    console.log(format(1234567));
+    console.log(format(0.1234567));
+</script>
+
+<body>
+    
+</body>
+</html>
