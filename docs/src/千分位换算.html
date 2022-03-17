@@ -16,20 +16,63 @@
     // console.log(str)
 
     // 给出一个数字，如 12345.6789 ，返回格式化后的内容，如 12,345.678,9
-    function format(num) {
-        if (!(num+'').includes('.')) {
-            return num.toLocaleString()
-        }
-        const [left, right] = (num+'').split('.')
-        const l = Number(left).toLocaleString()
-        const r = Number(right.split('').reverse().join('')).toLocaleString().split('').reverse().join('')
-        const covertStr = l + '.' + r;
-        return covertStr
+    // function format(num) {
+    //     if (!(num+'').includes('.')) {
+    //         return num.toLocaleString()
+    //     }
+    //     const [left, right] = (num+'').split('.')
+    //     const l = Number(left).toLocaleString()
+    //     const r = Number(right.split('').reverse().join('')).toLocaleString().split('').reverse().join('')
+    //     const covertStr = l + '.' + r;
+    //     return covertStr
 
+    // }
+    function format(num) {
+        // 请实现 ...
+        let [left, right] = JSON.stringify(num).split('.')
+        let l = f1(left)
+        let r = f2(right)
+        if (!r) return l
+        return l + '.' + r
     }
+
+    function f1 (str) {
+        let length = str.length
+        if (length < 3) return str
+        let ret = ''
+        if (length % 3 !== 0) {
+            str = '0'.repeat(3 - length % 3) + str
+        }
+        for(let i = 0; i < length; i += 3) {
+            ret += str.substr(i, 3) + ','
+        }
+        ret = ret.replace(/^0+/, '')
+        ret = ret.replace(/,$/, '')
+        return ret
+    }
+
+    function f2 (str) {
+        if (!str) return str
+        let length = str.length
+        if (length < 3) return str
+        let ret = ''
+        if (length % 3 !== 0) {
+            str = str + '0'.repeat(3 - length%3)
+        }
+        for(let i = 0; i < length; i += 3) {
+            ret += str.substr(i, 3) + ','
+        }
+        ret = ret.replace(/0+$/, '')
+        ret = ret.replace(/,$/, '')
+        ret = ret.replace(/0+$/, '')
+        return ret
+    }
+
+    // ============= 测试用例 ==============
     console.log(format(12345.6789));
     console.log(format(1234567));
     console.log(format(0.1234567));
+
 </script>
 
 <body>
