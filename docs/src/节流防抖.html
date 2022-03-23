@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>节流防抖</title>
+</head>
+
+
+
+<body>
+    <input type="text" id="test">
+</body>
+<script>
+    // 时间戳版本节流
+    function throttle1(fn, delay = 500) {
+        let oldtime = 0;
+        return function(args) {
+            let newtime = Date.now();
+            if(newtime - oldtime > delay) {
+                fn.call(this, args);
+                oldtime = Date.now();
+            }
+        }
+    }
+
+    // 定时器版本节流
+    function throttle2(fn, delay) {
+        let timer;
+        return function(args) {
+            if(timer) return;
+            timer = setTimeout(() => {
+                clearTimeout(timer);
+                fn.call(this, args);
+            }, delay);
+        }
+    }
+
+    // 定时器防抖
+    function debounce(fn, delay) {
+        let timer;
+        return function(args) {
+            if(timer) {
+                clearTimeout(timer)
+            }
+            timer = setTimeout(() => {
+                fn.call(this, args)
+            }, delay)
+        }
+    }
+
+    function ajax(value) {
+        console.log(value);
+    }
+    let e = document.getElementById('test')
+    let throttleTest = throttle1(ajax, 1000)
+    e.addEventListener("keydown",e=>{
+        throttleTest(e.target);
+    })
+</script>
+</html>
