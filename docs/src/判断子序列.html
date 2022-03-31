@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>判断子序列</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+    var isSubsequence = (s, t) => {
+        if(s.length === t.length && s !== t) {
+            return false
+        } 
+        const sq = s.split('');
+        const sqLen = sq.length;
+        const tArr = t.split('');
+        const len = tArr.length;
+        let sHead = sq.shift();
+        let flag = 0;
+        for (let i = 0; i < len; i++) {
+            const item = tArr[i];
+            if (item === sHead) {
+                flag++
+                sHead = sq.shift();
+            }
+        }
+        if (flag === sqLen) return true;
+        return false;
+    };
+    console.log(isSubsequence("acb","ahbgdc"))
+</script>
+
+</html>
