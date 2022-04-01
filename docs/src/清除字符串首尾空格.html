@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>清除字符串首尾空格</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+    // 1. trim()
+    console.log('     12  3    '.trim())
+
+    // 2. 正则
+    const myTrim = str => {
+        return str.replace(/(^\s+)|(\s+$)/g, '')
+    }
+    console.log(myTrim('   123 32  '))
+</script>
+
+</html>
