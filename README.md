@@ -1,6 +1,6 @@
 ## Installation
 
-``` sh
+``` sh 
 yarn add vuepress-theme-ououe
 # or
 npm i vuepress-theme-ououe
