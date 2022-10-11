@@ -5,7 +5,7 @@ yarn add vuepress-theme-ououe
 # or
 npm i vuepress-theme-ououe
 ```
-
+ceshi 
 ## Usage
 
 ``` js
