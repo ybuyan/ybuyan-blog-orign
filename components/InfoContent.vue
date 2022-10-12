@@ -30,13 +30,13 @@
         v-if="postTime.createTime && createTime"
         :datetime="createTime"
         class="time-text"
-        >{{ postTime.createTime + ': ' + createTime }}
+        >{{ `于 ${createTime} ${postTime.createTime}` }}
       </time>
       <time
         v-if="postTime.lastUpdated && lastUpdated"
         :datetime="lastUpdated"
         class="time-text"
-        >{{ postTime.lastUpdated + ': ' + lastUpdated }}
+        >{{ `于 ${lastUpdated} ${postTime.lastUpdated}` }}
       </time>
     </div>
   </article>
@@ -66,9 +66,30 @@ export default {
   },
   methods: {
     formatDate(date) {
-      return (
-        date && new Date(date).toLocaleString(this.$lang, this.postTime.options)
-      )
+      console.log(date)
+      if (!!date) {
+        let odate
+        // 不是时间戳字符串
+        if(isNaN(+date)) {
+          odate = new Date(date);
+        } else {
+          odate = new Date();
+          odate.setTime(date);
+        }
+        
+        let year = odate.getFullYear();
+        let month =  (odate.getMonth() + 1 < 10 ? '0' + (odate.getMonth() + 1) : odate.getMonth() + 1);
+        let day = odate.getDate() < 10 ? '0' + odate.getDate() : odate.getDate();
+        let hours = odate.getHours() < 10 ? '0' + odate.getHours() : odate.getHours();
+        let minutes = odate.getMinutes() < 10 ? '0' + odate.getMinutes() : odate.getMinutes();
+        let seconds = odate.getSeconds() < 10 ? '0' + odate.getSeconds() : odate.getSeconds();
+
+        return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`
+      }
+      
+      // return (
+      //   date && new Date(date).toLocaleString(this.$lang, this.postTime.options)
+      // )
     }
   }
 }
@@ -124,7 +145,7 @@ export default {
     .time-text
       display block
       font-size .9rem
-      color $textColor
+      color #999aaa
       transition all .5s ease-in-out
       @media (prefers-color-scheme: dark)
         color $textDarkColor
