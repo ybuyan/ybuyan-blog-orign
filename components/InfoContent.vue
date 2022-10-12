@@ -66,7 +66,7 @@ export default {
   },
   methods: {
     formatDate(date) {
-      console.log(date)
+      // console.log(date)
       if (!!date) {
         let odate
         // 不是时间戳字符串
