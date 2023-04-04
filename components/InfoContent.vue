@@ -58,6 +58,7 @@ export default {
       return this.formatDate(this.$frontmatter.date)
     },
     lastUpdated() {
+      console.log(this.$page)
       return this.formatDate(this.$page.lastUpdated)
     },
     postTime() {
