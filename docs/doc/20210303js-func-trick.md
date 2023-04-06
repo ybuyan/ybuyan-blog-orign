@@ -9,7 +9,7 @@ vssue-title: vuepress-plugin-img-lazy
 tags:
   - js
 categories:
-  - web前端
+  - 前端
 ---
 
 短小而实用的JS代码片段

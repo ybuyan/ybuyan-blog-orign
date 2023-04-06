@@ -11,7 +11,7 @@ tags:
   - 工具库
   - Date
 categories:
-  - web前端
+  - 前端
 ---
 
 偶然间被同事问道如何获取浏览器时间的时区缩写。查阅资料发现原生的js Date对象并没有提供这样的接口，但是万能的开源时代，[moment](https://momentjs.com/)和[moment-timezone](https://momentjs.com/timezone/)

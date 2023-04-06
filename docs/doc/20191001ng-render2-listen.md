@@ -9,7 +9,7 @@ vssue-title: vuepress-plugin-img-lazy
 tags:
   - Angular
 categories:
-  - web前端
+  - 前端
 ---
 
 ### 批量copy数据到web中

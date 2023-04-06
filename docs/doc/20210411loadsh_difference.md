@@ -12,7 +12,7 @@ tags:
   - loadsh
   - 工具库
 categories:
-  - web前端
+  - 前端
 ---
 
 loadsh真的是对js的运用做到了极致细节。不得不感叹这才是艺术。

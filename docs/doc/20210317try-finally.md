@@ -9,7 +9,7 @@ vssue-title: vuepress-plugin-img-lazy
 tags:
   - js
 categories:
-  - web前端
+  - 前端
 ---
 
 try..catch大家已经耳熟能详了，但是你知道try可以和catch活着finally配对使用吗，并且有时候还能同时使用。

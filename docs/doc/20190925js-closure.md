@@ -9,7 +9,7 @@ vssue-title: vuepress-plugin-img-lazy
 tags:
   - js
 categories:
-  - web前端
+  - 前端
 ---
 
 由于作用域的关系，函数之间不能相互读取变量，父级作用域不能读取子级作用域的变量。这是闭包出现了。

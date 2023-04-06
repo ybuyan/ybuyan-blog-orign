@@ -9,7 +9,7 @@ vssue-title: vuepress-plugin-img-lazy
 tags:
   - js
 categories:
-  - web前端
+  - 前端
 ---
 
 ## 作用域定义

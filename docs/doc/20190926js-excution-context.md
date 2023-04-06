@@ -9,7 +9,7 @@ vssue-title: vuepress-plugin-img-lazy
 tags:
   - js
 categories:
-  - web前端
+  - 前端
 ---
 
 抽象概念，简而言之js是在执行上下文中运行的。

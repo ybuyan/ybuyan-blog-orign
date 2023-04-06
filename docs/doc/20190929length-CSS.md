@@ -9,7 +9,7 @@ vssue-title: vuepress-plugin-img-lazy
 tags:
   - css
 categories:
-  - web前端
+  - 前端
 ---
 
 wtf？vmin是什么东西~？

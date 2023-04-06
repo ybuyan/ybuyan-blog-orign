@@ -11,7 +11,7 @@ tags:
   - vue
   - ES6
 categories:
-  - web前端
+  - 前端
 ---
 
 

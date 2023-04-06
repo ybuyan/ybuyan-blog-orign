@@ -12,7 +12,7 @@ tags:
   - loadsh
   - 工具库
 categories:
-  - web前端
+  - 前端
 ---
 
 <font color="red">loadsh</font> 是我们平时用的很多的工具函数库，这篇文章来了解一下 <font color="red">loadsh</font> 中的 <font color="red">add</font> 函数。

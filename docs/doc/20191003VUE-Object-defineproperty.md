@@ -11,7 +11,7 @@ tags:
   - VUE
   - 源码
 categories:
-  - web前端
+  - 前端
 ---
 
 # 神一样的defineproperty
