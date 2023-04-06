@@ -13,7 +13,7 @@ npm i vuepress-theme-ououe
 module.exports = {
   theme: 'ououe',
   themeConfig: {
-    // ...
+    // ....
   }
 }
 ```
