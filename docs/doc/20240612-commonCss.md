@@ -1,0 +1,115 @@
+---
+title: PC端项目css重置
+display: home
+lang: zh
+description: PC端项目css重置
+image: https://picsum.photos/536/354?random&date=2024-06-12
+date: 2024-06-12
+vssue-title: vuepress-plugin-img-lazy
+tags:
+  - css
+---
+
+### pc端项目重置样式
+
+<!-- more -->
+
+```css
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+html {
+    height: 100%;
+    font-size: 14px;
+}
+body {
+    height: 100%;
+    color: #333;
+    min-width: 1240px;
+    font: 1em/1.4 'Microsoft Yahei', 'PingFang SC', 'Avenir', 'Segoe UI',
+        'Hiragino Sans GB', 'STHeiti', 'Microsoft Sans Serif', 'WenQuanYi Micro Hei',
+        sans-serif;
+}
+ 
+a {
+    text-decoration: none;
+    color: #333;
+    outline: none;
+}
+ 
+i {
+    font-style: normal;
+}
+ 
+input[type='text'],
+input[type='search'],
+input[type='password'],
+input[type='checkbox'] {
+    padding: 0;
+    outline: none;
+    border: none;
+    -webkit-appearance: none;
+    &::placeholder {
+        color: #ccc;
+    }
+}
+ 
+img {
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+ 
+ul {
+    list-style: none;
+}
+ 
+#app {
+    background: #f5f5f5;
+    user-select: none;
+}
+ 
+.container {
+    width: 1240px;
+    margin: 0 auto;
+    position: relative;
+}
+ 
+.ellipsis {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+ 
+.ellipsis-2 {
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+ 
+.fl {
+    float: left;
+}
+ 
+.fr {
+    float: right;
+}
+ 
+.clearfix:after {
+    content: '.';
+    display: block;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+    clear: both;
+}
+```
+
+
